@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main .chart-area .my-chart {
+  border: 2px solid green;
+  height: 200px;
+}
+
+.navbar {
+  background-color: rgb(64, 78, 102);
+}
+.navbar .navbar-brand {
+  color: rgb(209, 222, 233);
+}
+.navbar .nav-item .nav-link {
+  color: rgb(197, 213, 226);
+}
+
+.menu-separator {
+  border: 2px solid rgb(78, 85, 95);
+}
+
+.main-container {
+  background-color: rgb(255, 255, 255);
+}
+
+.sidebar {
+  min-height: 1000px;
+  padding-top: 30px;
+}
+.sidebar .nav-link {
+  color: #333;
+}
+.sidebar .nav-link i {
+  color: #5b6f7c;
+}
+
+.content-header {
+  font-size: 18px;
+}
+
+.card-container {
+  margin-top: 15px;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border-left: 5px solid rgb(52, 174, 223);
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgba(38, 37, 95, 0.3), 0 2px 6px 0 rgba(55, 76, 90, 0.3);
+}
+.card .card-body {
+  padding: 10px;
+}
+
+.card-status-green {
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: 5px;
+  border-color: #47c20f;
+}
+
+.card-status-yellow {
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: 5px;
+  border-color: #e0dd0a;
+}
+
+.card-status-red {
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: 5px;
+  border-color: #eb352e;
+}
+
+.card-status-gray {
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: 5px;
+  border-color: #9b9b9b;
+}
+
+.card-status-blue {
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: 5px;
+  border-color: #4489d8;
+}
+
+.card-row {
+  margin: 2px;
+}
+.card-row .card-status-ok {
+  border: #f125be;
+}
+
+.card-value {
+  color: rgb(50, 63, 94);
+  font-weight: 400;
+}
+
+.sidebar .nav-link {
+  color: rgb(117, 128, 150);
+}
+.sidebar .nav-link i {
+  margin-right: 15px;
+}
+
+.fa-solid {
+  color: rgb(117, 128, 150);
+}
+
+.fa-caret-up {
+  position: relative;
+  top: 5px;
+  font-size: 24px;
+  color: rgb(5, 202, 15);
+  margin-right: 5px;
+}
+
+.fa-caret-down {
+  position: relative;
+  top: 3px;
+  font-size: 24px;
+  color: rgb(231, 32, 18);
+  line-height: 100%;
+  margin-right: 5px;
+}
+
+.change-value {
+  font-size: 18px;
+}
+
+.change-info {
+  color: #5b6f7c;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.bg-gradient-blue {
+  background: rgb(44, 136, 241);
+  background: linear-gradient(0deg, rgb(44, 136, 241) 0%, rgb(140, 189, 246) 56%);
+}
+
+.bg-gradient-green {
+  background: rgb(52, 227, 146);
+  background: linear-gradient(0deg, rgb(52, 227, 146) 4%, rgb(154, 244, 202) 62%);
+}
+
+.bg-gradient-scooter {
+  background: #66f125;
+}
+
+.widget-icons-2 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dee9f1;
+  font-size: 27px;
+  border-radius: 10px;
+} 
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.warehouse-table-div {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.warehouse-table-div .warehouse-table thead th {
+  background-color: rgb(219, 228, 237);
+}
+.warehouse-table-div .warehouse-table tbody th {
+  font-family: "Segoe UI";
+  font-size: 1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */
